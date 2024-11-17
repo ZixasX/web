@@ -34,7 +34,7 @@ function loginUser(event) {
         if (user.password === password) {
             sessionStorage.setItem('loggedUser', JSON.stringify(user));
             alert('Inicio de sesión exitoso');
-            window.location.href = 'inicio.html';
+            window.location.href = 'index.html';
         } else {
             alert('Contraseña incorrecta');
         }
@@ -54,7 +54,7 @@ function displayUser() {
 
 function logout() {
     sessionStorage.removeItem('loggedUser');
-    window.location.href = 'inicio.html';
+    window.location.href = 'index.html';
 }
 
 window.onload = function() {
