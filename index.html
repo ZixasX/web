@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Jeanpi-Fresh</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="iniciar_sesion.html">Inciar sesion</a></li>
+            <li id="user-name"></li>
+            <li id="logout" style="display: none;"><a href="#" onclick="logout()">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <header>
+            <h2>Bienvenido a JeanpiFresh
+                <h3>Moda que resfresca estilo que destaca</h3>
+            </h2>
+            <p>Encuentra estilos de ropa unicos y diferentes con diseños personalizables y de tendencia</p>
+    </header>
+
+    <!-- Sección Sobre Nosotros -->
+    <section>
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un negocio y emprendimiento formado por 3 jovenes que buscan crear una empresa estable mediante la creacion de ropa de calidad y de marca para toda la poblacion Colombiana y ser reconocidos por nuestra marca.</p>
+        <img src="../Imagenes/logon.jpg" alt="Diseños modernos" width="280">
+    </section>
+
+    <!-- Servicios -->
+    <section id="productos" class="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-container">
+            <div class="producto">
+                <img src="../Imagenes/camisa1.jpg" alt="Camisa">
+                <h3>Oversize marfil estampada</h3>
+                <p>$38.000</p>
+            </div>
+            <div class="producto">
+                <img src="../Imagenes/camisa2.jpg" alt="Camisa">
+                <h3>Oversize negra estampada</h3>
+                <p>$38.000</p>
+            </div>
+            <div class="producto">
+                <img src="../Imagenes/camisa3.jpg" alt="Camisa">
+                <h3>Oversize blanca estampada</h3>
+                <p>$38.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseñas de Clientes -->
+    <section>
+        <h2>Reseñas de Clientes</h2>
+        <p>"¡La mejor experiencia de compra!" - Carla M.</p>
+        <p>"Los diseños son únicos y de excelente calidad." - Pedro R.</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Síguenos en nuestras redes y contáctanos:</p>
+        <a href="https://www.facebook.com/profile.php?id=61567021291587&mibextid=ZbWKwL">Facebook</a> |
+        <a href="https://www.instagram.com/jpfreshv?igsh=MTEzNmUwNmZxNDduMQ==">Instagram</a> |
+        <a href="https://wa.me/573136295896">Whatsapp</a>
+        <p>Correo: freshjeanpi@gmail.com</p>
+    </footer>
+
+    <script src="funcion.js"></script>
+</body>
+</html>
